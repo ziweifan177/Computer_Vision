@@ -15,7 +15,7 @@
 - Applying a digital filter involves taking the convolution of an image with a #kernel# (a small matrix).
 - For Python, the Open-CV and PIL packages to apply.
 
-#### Types of filters:
+#### Major types of filters:
 - #### Mean filter: ####
   - #### Why? ####  
     - Used to blur an image in order to remove noise 
@@ -37,3 +37,9 @@
     - Calculates the *median* of the pixel intensities that surround the center pixel in a n x n kernel, and the median then replaces the pixel intensity of the center pixel.
     - Python: ‘medianBlur’ function from the Open-CV library.
     
+- #### Laplacian filters: ####
+  - #### Why? ####
+    - Laplacian filter detects the edges of an image. It can be used along with a *Gaussian filter* in order to first remove speckle noise and then to highlight the edges of an image. (referred to as the Lapalcian of Gaussian filtering)
+  - #### How? ####
+    - Highlights the areas of rapid changes in intensity and can thus be used for edge detection.
+    - The discrete approximation of the Laplacian at a specific pixel can be determined by taking the weighted mean of the pixel intensities in a small neighborhood of the pixel. 
