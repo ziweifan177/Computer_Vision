@@ -18,8 +18,8 @@
 #### Types of filters:
 - #### Mean filter: ####
  - Why? 
-  - Used to blur an image in order to remove noise
-  - Smooths the edges of the image
+  -- Used to blur an image in order to remove noise
+  -- Smooths the edges of the image
  - How?
-  -  The pixel intensity of the center element is then replaced by the mean.
-  -  Convert from RGB to HSV before filter: Since the dimensions of RGB are dependent on one another where as the three dimensions in HSV are independent of one another, so HSV can apply filters to each of the three dimensions separately.)
+  --  The pixel intensity of the center element is then replaced by the mean.
+  --  Convert from RGB to HSV before filter: Since the dimensions of RGB are dependent on one another where as the three dimensions in HSV are independent of one another, so HSV can apply filters to each of the three dimensions separately.)
