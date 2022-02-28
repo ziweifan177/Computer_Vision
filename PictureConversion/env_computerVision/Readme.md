@@ -44,3 +44,6 @@
 
 # Comparation:
 ![combined](https://user-images.githubusercontent.com/30694805/156057745-b7bb2247-c8fd-4fb7-9151-e668a117a6f3.png)
+
+# Reference:
+https://docs.opencv.org/3.4/da/d22/tutorial_py_canny.html
