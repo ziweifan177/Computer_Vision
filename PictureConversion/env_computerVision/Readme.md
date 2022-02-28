@@ -41,3 +41,6 @@
   - #### How? ####
     - Highlights the areas of rapid changes in intensity and can thus be used for edge detection.
     - The discrete approximation of the Laplacian at a specific pixel can be determined by taking the weighted mean of the pixel intensities in a small neighborhood of the pixel. 
+
+# Comparation:
+![combined](https://user-images.githubusercontent.com/30694805/156057745-b7bb2247-c8fd-4fb7-9151-e668a117a6f3.png)
