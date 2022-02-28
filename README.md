@@ -5,7 +5,7 @@
 ### Why edge detection?
 - Enhancing the edges of an image can help a model detect the features of an image.
 - It reduces the amount of data in an image and preserves the structural properties of an image.
-### Filter?
+### Filters Introduction
 #### Overview
 - Image filters can be used to reduce the amount of noise(speckle noise, salt-and-pepper noise) in an image and to enhance the edges in an image. 
  1. Speck noise: occurs during image acquisition
