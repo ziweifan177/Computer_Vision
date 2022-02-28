@@ -16,7 +16,7 @@
 - For Python, the Open-CV and PIL packages to apply.
 
 #### Types of filters:
-- #### Mean filter:####
+- #### Mean filter: ####
  - Why? 
   - Used to blur an image in order to remove noise
   - Smooths the edges of the image
