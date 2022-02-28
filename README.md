@@ -23,3 +23,13 @@
   - #### How? #### 
   1.  The pixel intensity of the center element is then replaced by the mean. 
   2.  Convert from RGB to HSV before filter: Since the dimensions of RGB are dependent on one another where as the three dimensions in HSV are independent of one another, so HSV can apply filters to each of the three dimensions separately.)
+- #### Gaussian filter: ####
+  - #### Why? ####
+    It does a better job of preserving edges than a similarly sized mean filter.
+  - #### How? ####
+  - Similar to the mean filter, but it involves a *weighted average* of the surrounding pixels and has a parameter sigma. 
+  - The kernel represents a discrete approximation of a *Gaussian distribution*.
+  - Python: ‘GaussianBlur’ function from the Open-CV package can be used to implement a Gaussian filter, to specify *shape of the kernel* and sigma value is specified then it is considered the *sigma* value for both the x and y directions.
+- #### Median filter: #### 
+  - #### How? #### 
+    - Calculates the median of the pixel intensities that surround the center pixel in a n x n kernel.
